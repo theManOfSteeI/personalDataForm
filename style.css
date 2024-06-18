@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 5vh 5vh 2.5vh 2.5vh; /* Eliminar padding-top */
+    background-color: #f6f6f6; /* Color gris más claro */
+    box-sizing: border-box; /* Incluir padding en el ancho total */
+}
+
+.container {
+    padding: 20px 20px 5px 20px;
+    margin: 0 auto;
+    box-sizing: border-box; /* Incluir padding en el ancho total */
+    max-width: 700px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #d0cbcb; /* Color de fondo blanco */
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.form-wrapper {
+    width: 50%; /* Hacer que el formulario ocupe todo el ancho del contenedor */
+    padding: 20px; /* Añadir padding dentro del marco del formulario */
+    background-color: hsl(0, 100%, 100%); /* Color de fondo del marco interno */
+    border-radius: 10px; /* Bordes redondeados para el marco interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera para el marco interno */
+}
+
+form {
+    width: 100%; /* Hacer que el formulario ocupe todo el ancho del contenedor */
+}
+
+form label, form input {
+    width: 40%; /* ancho de los elementos del formulario */
+    margin-bottom: 5px; /* Espacio entre los elementos del formulario */
+    display: block; /* que queden fijos */
+    margin-left: left; /* Centrar horizontalmente */
+    margin-right: auto; /* Centrar horizontalmente */
+}
+
+form input {
+    padding: 10px; /* Espaciado interno de los inputs */
+    border: 1px solid #ccc; /* Añadir borde a los inputs */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 300px;
+}
+
+.button-container {
+    width: 60%; /* ancho */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinear los botones a la izquierda */
+    margin-left: auto; /* Centrar horizontalmente */
+    margin-right: auto; /* Centrar horizontalmente */
+}
+
+form button {
+    width: 290px; 
+    margin-bottom: 10px; /* Añadir espacio entre los botones */
+    padding: 10px; /* Espaciado interno de los botones */
+    background-color: #3386fa; /* Color de fondo de los botones */
+    color: white; /* Color del texto de los botones */
+    border: 1px solid rgb(14, 13, 14); /* Borde de los botones */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+}
+
+form button:hover {
+    background-color: #d32f6f; /* Color de fondo del botón al pasar el mouse */
+}
+
+.header-text {
+    font-size: 2em;
+    text-align: center;
+    color: rgb(14, 13, 14);
+    padding-left: 2%;
+    margin-bottom: 15px; /* Añadir espacio debajo del encabezado */
+}
