@@ -44,7 +44,7 @@ form input {
     padding: 10px; /* Espaciado interno de los inputs */
     border: 1px solid #ccc; /* Añadir borde a los inputs */
     border-radius: 5px; /* Bordes redondeados */
-    width: 300px;
+    width: 75%;
 }
 
 .button-container {
@@ -57,7 +57,7 @@ form input {
 }
 
 form button {
-    width: 290px; 
+    width: 60%; 
     margin-bottom: 10px; /* Añadir espacio entre los botones */
     padding: 10px; /* Espaciado interno de los botones */
     background-color: #3386fa; /* Color de fondo de los botones */
